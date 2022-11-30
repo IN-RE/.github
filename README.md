@@ -1,1 +1,1 @@
-![projectr](https://github.com/project-r-alpha/project-r/blob/9e4222d848de59d6ab617718c8f3a0787222dbfe/assets/r.png)
+![projectr](https://github.com/project-r-alpha/project-r/blob/244872f6aa135a3e9552d1282cf7cd9a2ef32f76/assets/r.png)
