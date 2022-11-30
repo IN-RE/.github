@@ -1,2 +1,1 @@
-
-![Alt Text](https://steemitimages.com/DQmaH4sx698CSs38fncFv48MVCCB8f9u1JjjZ6D43uG7Hmj/voronoi-space-gif-1.gif)
+![projectr](https://github.com/project-r-alpha/project-r/blob/9e4222d848de59d6ab617718c8f3a0787222dbfe/assets/r.png)
