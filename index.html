@@ -1,151 +1,177 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bulma.css">
+    <link rel="stylesheet" href="static/css/font-awesome.css">
+    <link rel="stylesheet" href="static/css/linea-arrows-styles.css" />
+    <link rel="stylesheet" href="static/css/swiper.css">
+    <link rel="stylesheet" href="static/css/app.css">
+  </head>
+  <body>
 
-<head>
-
-  <title>project r</title>
-  <!-- redux refactor recurse --> 
-
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    type="text/css" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/logo/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/favicon-16x16.png">
-    <link rel="manifest" href="assets/logo/site.webmanifest">
-    <link rel="mask-icon" href="assets/logo/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/logo/favicon.ico">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-config" content="assets/logo/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-</head>
-
-<body>
-
-  <div class="main">
-
-    <nav class='sidebar sidebar-menu-collapsed'>
-
-      <ul>
-        <li class='active'>
-          <a class='expandable' href='#home' title='home'>
-            <span class='expanded-element'>home</span>
-            <span class='glyphicon glyphicon-home collapsed-element'></span>
-          </a>
-        </li>
-        <li>
-          <a class='expandable' href='#praxis' title='praxis'>
-            <span class='expanded-element'>praxis</span>
-            <span class='glyphicon glyphicon-play-circle collapsed-element'></span>
-          </a>
-        </li>
-        <li>
-
-          <a class='expandable' href='#' onclick='window.open(`mailto:kalpit.parikh@protonmail.com`, `_self`);' title='contact'>
-            <span class='expanded-element'>contact</span>
-            <span class='glyphicon glyphicon-edit collapsed-element'></span>
-          </a>
-        </li>
-        <li>
-          <a class='expandable' href='#about' title='about'>
-            <span class='expanded-element'>about</span>
-            <span class='glyphicon glyphicon-eye-open collapsed-element'></span>
-          </a>
-        </li>
-      </ul>
-
-    </nav>
-
-    <div id="home">
-
-      <div class="coverlinkti">
-
-        <div class="glitch" data-text="project r">project r</div>
-        </a>
+    <div id="menu-bar">
+      <div id="menu-icon">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
       </div>
+      <a href="index.html" id="logo">project r</a>
     </div>
 
-    <div id="praxis">
-      <div class="bground">
-        <div class="cardTitle">r-alpha </div>
-        <div class="cardContainer">
+    <a href="contact.html" id="contact" class="is-hidden-touch">Contact</a>
 
-          <div class="card">
-            <a href="http://EV3D4.github.io/tributePage/"> 
-            <img src="assets/backgrounds/portfolio/1.jpg">
-            </a>
+    <nav id="menu">
+      <ul class="socials">
+         <li><a href="https://github.com/project-r-alpha">Github</a></li>
+        <li><a href="https://www.behance.net/opticks">Behance</a></li>
+        <li><a href="http://twitter.com/pariikh">Twitter</a></li>
+        <li><a href="http://instagram.com/kalpitparikh">Instagram</a></li>
+      </ul>
+      <div class="columns contact-infos is-hidden-mobile">
+        <div class="column">
+          <p class="small-text">
+            6913 King Green Ste.<br> 2689 Los Angeles<br> NJ 08520
+          </p>
+        </div>
+        <div class="column">
+          <ul class="small-text">
+            <li><a href="mailto:kalpit.parikh@protonmail.com">kalpit.parikh@protonmail.com</a></li>
+            <li>+36 4587 9012</li>
+          </ul>
+        </div>
+
+      </div>
+      <ul id="menu-items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+      <div id="copyright">
+        <p>@2020 project r. All rights reserved.</p>
+      </div>
+    </nav>
+
+    <div id="wrapper">
+
+      <div class="swiper-container is-invisible" id="gallery">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide site-intro">
+
+            <ul class="contact-infos small-text">
+            <li><a href="mailto:kalpit.parikh@protonmail.com">kalpit.parikh@protonmail.com</a></li>
+              <li>+36 4587 9012</li>
+            </ul>
+
+            <ul class="socials">
+           <li><a href="https://github.com/Linear-0b">Github</a></li>
+        <li><a href="https://www.behance.net/opticks">Behance</a></li>
+        <li><a href="http://twitter.com/pariikh">Twitter</a></li>
+        <li><a href="http://instagram.com/kalpit.parikh">Instagram</a></li>
+            </ul>
+
+            <p class="scroll-hint">
+              <span class="is-hidden-mobile">Scroll</span>
+              <span class="is-hidden-tablet">Swipe</span>
+            </p>
+
+            <h1>
+              We are a <br>
+              digital agency <br>
+              specialize in<br>
+              branding.
+            </h1>
+
+            <p class="small-text intro-text">
+              project r is a digital studio based in
+              Robbinsville. We help design and
+              build successful brands and
+              digital products.
+            </p>
           </div>
 
-          <div class="card">
-            <a href="http://EV3D4.github.io/randomQuoteMachine/"> 
-            <img src="assets/backgrounds/portfolio/2.jpg">
-            </a>
+          <div class="swiper-slide work" data-hash="work-1" data-color="#e4c7ae">
+            <div class="inner">
+              <p class="meta">
+                locii<br>
+                Brand website
+              </p>
+              <p class="order" style="color:black;">01</p>
+              <a href="portfolio-item.html"><img src="images/@stock/work-1.jpg" alt="work 1"></a>
+              <h2>photography</h2>
+            </div>
           </div>
-
-          <div class="card">
-            <a href="https://EV3D4.github.io/pomodoroClock/"> 
-            <img src="assets/backgrounds/portfolio/3.jpg">
-            </a>
+          <div class="swiper-slide work" data-hash="work-2" data-color="#bed1e0">
+            <div class="inner">
+              <p class="meta">
+                project r<br>
+                Brand website
+              </p>
+              <p class="order" style="color:white;">02</p>
+              <a href="portfolio-item.html"><img src="images/@stock/work-2.jpg" alt="work 2"></a>
+              <h2>HTTP 303</h2>
+            </div>
           </div>
-
-          <div class="card">
-            <a href="https://linear-0b.github.io/LINEAR-0b/"> 
-            <img src="assets/backgrounds/portfolio/4.jpg">
-            </a>
+          <div class="swiper-slide work" data-hash="work-3" data-color="#f3c98d">
+            <div class="inner">
+              <p class="meta">
+                sonalika<br>
+                Brand website
+              </p>
+              <p class="order" style="color:black;">03</p>
+                <a href="portfolio-item.html"><img src="images/@stock/work-3.jpg" alt="work 2"></a>
+              <h2>(n) […], where there is gold
+              </h2>
+            </div>
           </div>
-
-          <div class="card">
-            <a href="http://EV3D4.github.io/jsCalculator/"> 
-            <img src="assets/backgrounds/portfolio/5.jpg">
-            </a>
+          <div class="swiper-slide work" data-hash="work-4" data-color="#f4f434">
+            <div class="inner">
+              <p class="meta">
+                iioi<br>
+                Brand website
+              </p>
+              <p class="order" style="color:black;">04</p>
+              <a href="portfolio-item.html"><img src="images/@stock/work-4.jpg" alt="work 4"></a>
+              <h2>in·for·ma·tion sci·ence
+              </h2>
+            </div>
           </div>
-
-          <div class="card">
-            <a href="https://EV3D4.github.io/ticTacToe/"> 
-            <img src="assets/backgrounds/portfolio/6.jpg">
-            </a>
-          </div>
-
-          <div class="card">
-            <a href="https://EV3D4.github.io/wikipediaViewer/"> 
-            <img src="assets/backgrounds/portfolio/7.jpg">
-            </a>
-          </div>
-
-          <div class="card">
-            <a href="http://EV3D4.github.io/localWeather/"> 
-            <img src="assets/backgrounds/portfolio/8.jpg"    style="object-fit:cover">
-            </a>
+         
+          
+          <div class="swiper-slide contact-info">
+            <div class="inner">
+              <h2><a href="contact.html">Let’s have a chat<i class="icon-arrows-slim-right"></i></a></h2>
+              <p class="address small-text">
+                6000 King, Ste. 2009 <br>
+                Los Angeles, CA 80016, USA
+              </p>
+              <ul class="contact-infos small-text">
+                <li><a href="mailto:plexar@info.com">plexar@info.com</a></li>
+                <li>+36 4587 9012</li>
+              </ul>
+            </div>
           </div>
 
         </div>
+        <!-- /.swiper-wrapper -->
+
+        <a class="scroll-to-beginning"><i class="icon-arrows-slim-left"></i></a>
       </div>
+      <!-- /.swiper-container -->
+
     </div>
 
-    <div >
 
-      <div class="aboutr">
-        <div class="aboutText">
-        <h2>about: <i>r</i></h2>
-        <p>  research and exploration <br> of the simulacrum
-        </p>
-      </div>
-      </div>
-    </div>
-<div id="about"></div>
-
-  </div>
-  <div class="arrow">
-    <span></span>
-    <span></span>
-  </div>
-
-  <script type="text/javascript" src="script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-</body>
-
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/swiper.patched.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
