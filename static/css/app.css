@@ -751,13 +751,13 @@ html, body {
       background-image: url(../../images/@stock/service-3.png); }
 
 .swiper-slide.service:hover #icon-1 {
-  animation: BackgroundAnimated-t-b 2s linear infinite; }
+  animation: BackgroundAnimated-r-l 5s linear infinite; }
 
 .swiper-slide.service:hover #icon-2 {
-  animation: BackgroundAnimated-l-r 2s linear infinite; }
+  animation: BackgroundAnimated-t-b 2s linear infinite; }
 
 .swiper-slide.service:hover #icon-3 {
-  animation: BackgroundAnimated-r-l 2s linear infinite; }
+  animation: BackgroundAnimated-l-r 2s linear infinite; }
 
 .swiper-slide.service.last {
   border-right: 1px solid #ddd;
